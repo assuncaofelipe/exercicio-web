@@ -1,0 +1,43 @@
+* {
+    margin : 0;
+    padding: 0;
+}
+
+body {
+    font-size  : 16px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bolder;
+}
+
+nav {
+    width          : 400px;
+    background     : rgb(204, 204, 204);
+    justify-content: flex-start;
+    display        : flex;
+}
+
+nav ul {
+    width          : 100%;
+    align-items    : center;
+    list-style-type: none;
+}
+
+nav ul li {
+    padding    : 20px;
+    display    : flex;
+    align-items: center;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color          : black;
+    margin-left    : 10px;
+}
+
+.icone {
+    background: rgb(224, 27, 106);
+}
+
+.menu li:hover {
+    background: rgb(224, 27, 106);
+}

@@ -1,0 +1,51 @@
+* {
+    margin : 0;
+    padding: 0;
+}
+
+body {
+    font-size  : 12px;
+    font-weight: bolder;
+    font-family: Verdana;
+    color      : black;
+}
+
+span {
+    display        : flex;
+    flex-direction : column;
+    align-items    : center;
+    justify-content: center;
+}
+
+header {
+    height          : 150px;
+    background-color: #1a1e20;
+    width           : 100vw;
+}
+
+nav {
+    position        : fixed;
+    left            : 0;
+    background-color: aqua;
+    width           : 40%;
+    height          : 100vh;
+}
+
+aside {
+    position        : fixed;
+    width           : 60%;
+    right           : 0;
+    height          : 100vh;
+    background-color: blueviolet;
+}
+
+footer {
+    background-color: black;
+    height          : 60px;
+    position        : fixed;
+    left            : 0;
+    bottom          : 0;
+    width           : 100%;
+    color           : white;
+    text-align      : center;
+}
